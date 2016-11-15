@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @classified.category %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @classified.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @classified.description %>
+</p>
+
+<p>
+  <strong>Keyword:</strong>
+  <%= @classified.keyword %>
+</p>
+
+<p>
+  <strong>Address1:</strong>
+  <%= @classified.address1 %>
+</p>
+
+<p>
+  <strong>Address2:</strong>
+  <%= @classified.address2 %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @classified.city %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @classified.state %>
+</p>
+
+<p>
+  <strong>Zip:</strong>
+  <%= @classified.zip %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @classified.price %>
+</p>
+
+<%= link_to 'Edit', edit_classified_path(@classified) %> |
+<%= link_to 'Back', classifieds_path %>
